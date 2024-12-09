@@ -1,0 +1,59 @@
+// css reset
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+
+* {
+    margin: 0;
+}
+
+body {
+    line-height: 1.5;
+    -webkit-font-smoothing: antialiased;
+    overflow-x: hidden;
+}
+
+img, picture, video, canvas, svg {
+    display: block;
+    max-width: 100%;
+}
+
+input, button, textarea, select {
+    font: inherit;
+}
+
+p, h1, h2, h3, h4, h5, h6 {
+    overflow-wrap: break-word;
+}
+
+a {
+    color: black;
+    text-decoration: none;
+}
+
+#root, #__next {
+    isolation: isolate;
+}
+// css reset
+
+// global styles
+body {
+    font-family: "Neue Haas Grotesk Text Pro";
+    font-weight: 400;
+    background-color: #ECF7FF;
+}
+
+@font-face {
+    font-family: "Neue Haas Grotesk Text Pro";
+    src: url(../asset/font/NHaasGroteskTXPro-Rg.ttf);
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: "Neue Haas Grotesk Text Pro";
+    src: url(../asset/font/NHaasGroteskTXPro-It.ttf);
+    font-weight: 400;
+    font-style: italic;
+}
+// global styles
+
